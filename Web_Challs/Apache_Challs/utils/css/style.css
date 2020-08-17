@@ -1,0 +1,15 @@
+﻿
+body {
+    font-family:"Lucida Console", Courier, monospace;
+    margin:0;
+
+}
+h2{
+    font-weight:normal;
+    text-align:center;
+}
+h3{
+    font-weight:normal;
+    margin:3px 0px;
+    text-align:center;
+}

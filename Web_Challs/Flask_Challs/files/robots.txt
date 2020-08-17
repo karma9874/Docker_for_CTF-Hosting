@@ -1,0 +1,1 @@
+Disallow : /l33t_hax0r.html
