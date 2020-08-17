@@ -9,4 +9,4 @@ Docker files for hosting Pwn challenges,Web Challeges and Python Challenges in C
 
 ## Usage
 
-Run `start.sh` in specific folders which whill build the image with `docker_name` and `port_number` as parameter 
+Run `start.sh` in specific folders with `docker_name` and `port_number` as parameter which will build the images and run them 
