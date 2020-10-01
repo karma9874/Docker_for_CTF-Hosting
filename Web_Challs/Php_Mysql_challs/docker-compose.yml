@@ -1,0 +1,17 @@
+version: "3.2"
+services:
+  php:
+    build: 
+      context: .
+    image: safe_house
+    volumes:
+      - ./files/:/var/www/html/
+    ports:
+      - "30001:80"
+    container_name: safe_house_php
+  mysql:
+    image: mysql:5.7
+    environment:
+      - MYSQL_ROOT_PASSWORD=scam@123
+      - MYSQL_DATABASE=agentxer
+    container_name: safe_house_sql
